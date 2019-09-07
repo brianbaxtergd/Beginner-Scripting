@@ -338,9 +338,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2028528851}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cf2100e818fe544d84eef064494ac67, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c1ecf8d9c9fb3f4d887907468362cda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numberOfPlayerDeaths: 3
 --- !u!65 &2028528853
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -442,6 +443,8 @@ GameObject:
   - component: {fileID: 2041419377}
   - component: {fileID: 2041419376}
   - component: {fileID: 2041419375}
+  - component: {fileID: 2041419380}
+  - component: {fileID: 2041419379}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -523,3 +526,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2041419379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041419374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3377062df7c4d48976e7c5691ed77b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScore: 9001
+--- !u!114 &2041419380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041419374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ec42cc6093edbd4ea24182ff1e5d25f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherGameObject: {fileID: 2028528851}
