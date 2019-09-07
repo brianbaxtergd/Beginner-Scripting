@@ -519,15 +519,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2028528851}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98562f3e291eed44c8498ef5dfaae3e7, type: 3}
+  m_Script: {fileID: 11500000, guid: bbc094f1eac394d4c840e1259a72d1e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  turnSpeed: 60
-  projectileAPrefab: {fileID: 1761025384953770745, guid: d534edfc285bd2d4e953a4e2ab5bc24c,
+  projectile: {fileID: 1761025384953770745, guid: d534edfc285bd2d4e953a4e2ab5bc24c,
     type: 3}
   firePosition: {fileID: 1837195629}
-  bulletSpeed: 250
 --- !u!1 &2041419374
 GameObject:
   m_ObjectHideFlags: 0
